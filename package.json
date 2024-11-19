@@ -2,6 +2,7 @@
   "name": "cs356testapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rtkane.github.io/cs356TestApp/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.0",
     "@fortawesome/free-brands-svg-icons": "^6.7.0",
