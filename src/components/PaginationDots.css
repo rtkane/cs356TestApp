@@ -1,0 +1,26 @@
+.pagination-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.dot.active {
+  background-color: blue;
+}
+
+.dot.bookmarked {
+  background-color: gold;
+}
+
+.dot.completed {
+  background-color: grey;
+}

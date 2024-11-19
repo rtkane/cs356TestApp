@@ -1,0 +1,73 @@
+.left{
+    color: #368bdf;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.right{
+    color: #368bdf;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+button{
+    height: 50px;
+    width: auto;
+}
+
+.actions button {
+    background-color: transparent; /* Optional: Add a background if needed */
+    border: none;
+    font-size: 2rem; /* Adjust font size to make the icon bigger */
+    cursor: pointer;
+    padding: 10px; /* Add padding for a larger clickable area */
+  }
+  
+  .actions button.left {
+    margin-right: 10px; /* Space between left and right buttons */
+  }
+  
+  .actions button.right {
+    margin-left: 10px;
+  }
+  
+  .actions button:hover {
+    color: #007bff; /* Optional: Add a hover effect */
+  }
+  
+  .bookmark-btn {
+    font-size: 2rem; /* Adjust size of the bookmark button */
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+  .bookmark-btn.bookmarked {
+    color: #368bdf;
+  }
+
+  .progress-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  background-color: transparent; /* Default: no fill */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.dot.completed {
+  background-color: grey;
+  border-color: grey;
+}
+
+.dot.bookmarked {
+  background-color: gold;
+  border-color: gold;
+}
